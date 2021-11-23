@@ -11,3 +11,5 @@ Two ways! <br/>
 This is just a list of remeinders that I will update so I can reference this and remember Rust quickly. <br/>
 * Variables in Rust are immutable by default, and require the mut keyword to be made mutable <br/>
 * int types there are two: u/i followed by {8,16,32,64} size. u pos only aka unsighed int i pos/neg aka signed <br/>
+* implict returns by not using semicolons or the return keyword in function
+* Ownership and barrowing are very different compared to C++ so look in to it if you forget!

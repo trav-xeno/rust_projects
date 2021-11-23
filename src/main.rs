@@ -20,7 +20,10 @@ fn main() {
     planet_weight();
 }
 
-//get user input used for other methods 
+//--------------------------------------
+// Name: get_input()
+// args: none
+// read input from std::io::in 
 fn get_input() -> String {
     let mut input = String::new() ;
     io::stdin().read_line(&mut input).unwrap();
@@ -44,6 +47,10 @@ fn get_new_weight(weight: f32 , planet_g: f32) -> f32 {
 //Uranus  10.67
 //Neptune 14.07
 //Jupiter 25.95
+//--------------------------------------
+// Name: planet_weight
+// args: none
+// prints out weight on other planets
 fn planet_weight() {
     println!("Enter weight kg please:");
     let input = get_input();
@@ -57,7 +64,7 @@ fn planet_weight() {
     let uranus = get_new_weight(weight, 10.67);
     let neptune = get_new_weight(weight, 17.07);
     let saturn = get_new_weight(weight, 11.08);
-    println!("Your weight on Earth: {}", weight);
+    println!("Your weight Earth: {}", weight);
     println!("Your weight on moon: {}", moon);
     println!("Your weight on mercury: {}", mercury);
     println!("Your weight on venus: {}", venus);
