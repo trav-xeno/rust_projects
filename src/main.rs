@@ -15,8 +15,8 @@ TODO:
 use std::io;
 
 fn main() {
-    println!("Rust project! Bevy!");
-    println!("Running weight on planets of the our solar system ");
+    println!("Rust project!");
+    println!("Starting weight on planets mini app");
     planet_weight();
 }
 
