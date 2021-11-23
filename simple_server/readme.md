@@ -1,0 +1,2 @@
+# simple Sever from scratch
+This is NOT a full fledge server! Also just a note Go's standard libary server and functionality is far better. It get things upand running quickly. Rust is great don't get me wrong, but the things the Go libary brings is far better. You will only use Rust or C++ as a server if you truly need fast performance, low lantecy, etc. Go, Deno/nodejs, and python will perform just fine for what many will need. For gamming servers I would look probably right it in Go or Rust. 
