@@ -10,3 +10,4 @@ Two ways! <br/>
 ## Reminders
 This is just a list of remeinders that I will update so I can reference this and remember Rust quickly. <br/>
 * Variables in Rust are immutable by default, and require the mut keyword to be made mutable <br/>
+* int types there are two: u/i followed by {8,16,32,64} size. u pos only aka unsighed int i pos/neg aka signed <br/>

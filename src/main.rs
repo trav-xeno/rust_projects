@@ -1,6 +1,17 @@
-//main entry of app
-//Reminder let varibles are immutable 
-// u/i{8,16,32,64} ints u pos only i pos/neg
+/*
+Travis Nevins
+simple commandline app
+
+Current app takes kg weight and prints out what the weight will be on other planets
+TODO:
+    add math examples
+    recursion examples
+    functional examples 
+    structs example
+    pattern matching example
+    file reading/editing example 
+*/
+
 use std::io;
 
 fn main() {
@@ -35,7 +46,6 @@ fn get_new_weight(weight: f32 , planet_g: f32) -> f32 {
 //Jupiter 25.95
 fn planet_weight() {
     println!("Enter weight kg please:");
-    
     let input = get_input();
     
     let weight: f32 = input.trim().parse().unwrap();
@@ -56,6 +66,4 @@ fn planet_weight() {
     println!("Your weight on saturn: {}", saturn);
     println!("Your weight on uranus: {}", uranus);
     println!("Your weight on neptune: {}", neptune);
-
-
 }
