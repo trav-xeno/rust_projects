@@ -79,7 +79,7 @@ fn planet_weight() {
     let test = input.trim().parse::<f32>();
     match test {
         Ok(ok) => calc_weight(ok),
-        Err(e) =>  println!("Please entere a number only! exiting app, {}", e),
+        Err(e) =>  println!("Error: {} \n Please enter a number only! exiting app", e),
     }
 
    
