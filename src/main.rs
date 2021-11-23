@@ -30,6 +30,14 @@ fn get_input() -> String {
     return input;
 }
 
+
+
+
+//========================================================
+// Calc weight on planet code below
+//=========================================================
+
+
 //--------------------------------------
 // Name: get_mars_weight
 // args: floating point weight given fomr user and planet gravity
@@ -59,15 +67,11 @@ fn calc_weight(input: f32){
     println!("Your weight on neptune: {}", neptune);
 }
 
-//there are some implict returns by not using semicolons or the keyword
-//moon 1.622
-//saturn 11.08
-//mar 3.77 
-//mercury 3.59
-//venus 8.87
-//Uranus  10.67
-//Neptune 14.07
-//Jupiter 25.95
+//Gravity for planets choose these numbers from research but oddly enough there were some discrepancies   
+//moon 1.622    saturn 11.08
+//mar 3.77      mercury 3.59
+//venus 8.87    Uranus  10.67
+//Neptune 14.07 Jupiter 25.95
 //--------------------------------------
 // Name: planet_weight
 // args: none
@@ -81,7 +85,4 @@ fn planet_weight() {
         Ok(ok) => calc_weight(ok),
         Err(e) =>  println!("Error: {} \n Please enter a number only! exiting app", e),
     }
-
-   
-    
 }
